@@ -3,13 +3,13 @@
 $_['heading_title']    = 'Anti-Fraud';
 
 // Text
-$_['text_success']     = 'Success: You have modified anti-fraud!';
-$_['text_list']        = 'Anti-Fraud List';
+$_['text_success']     = 'Sucesso: Você modificou o anti-fraud!';
+$_['text_list']        = 'Lista Anti-Fraud';
 
 // Column
-$_['column_name']      = 'Anti-Fraud Name';
+$_['column_name']      = 'Nome Anti-Fraud';
 $_['column_status']    = 'Status';
-$_['column_action']    = 'Action';
+$_['column_action']    = 'Ação';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify anti-fraud!';
+$_['error_permission'] = 'Atenção: Você não tem permissão para modificar o anti-fraud!';

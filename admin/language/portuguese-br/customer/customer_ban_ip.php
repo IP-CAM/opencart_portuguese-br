@@ -1,21 +1,21 @@
 <?php
 // Heading
-$_['heading_title']    = 'Banned IPs';
+$_['heading_title']    = 'IPs Banidos';
 
 // Text
-$_['text_success']     = 'Success: You have modified customer banned IPs!';
-$_['text_list']        = 'Banned IP List';
-$_['text_add']         = 'Add Banned IP';
-$_['text_edit']        = 'Edit Banned IP';
+$_['text_success']     = 'Sucesso: Você modificous os clientes ips banidos!';
+$_['text_list']        = 'Lista de IP Banidos';
+$_['text_add']         = 'Add banido IP';
+$_['text_edit']        = 'Editar banido IP';
 
 // Column
 $_['column_ip']        = 'IP';
-$_['column_customer']  = 'Customers';
-$_['column_action']    = 'Action';
+$_['column_customer']  = 'Clientes';
+$_['column_action']    = 'Ação';
 
 // Entry
 $_['entry_ip']         = 'IP';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify customer banned IPs!';
-$_['error_ip']         = 'IP must be between 1 and 40 characters!';
+$_['error_permission'] = 'Atenção: Você não tem permissão para modificar cliente banido IPs!';
+$_['error_ip']         = 'IP precisa ter entre 1 e 40 caracteres!';

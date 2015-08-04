@@ -1,77 +1,77 @@
 <?php
 // Heading
-$_['heading_title']         = 'Customers';
+$_['heading_title']         = 'Clientes';
 
 // Text
-$_['text_success']          = 'Success: You have modified customers!';
-$_['text_list']             = 'Customer List';
-$_['text_add']              = 'Add Customer';
-$_['text_edit']             = 'Edit Customer';
-$_['text_default']          = 'Default';
-$_['text_balance']          = 'Balance';
+$_['text_success']          = 'Atenção: Você modificou clientes!';
+$_['text_list']             = 'Lista de Clientes';
+$_['text_add']              = 'Add Clientes';
+$_['text_edit']             = 'Editar Clientes';
+$_['text_default']          = 'Padrão';
+$_['text_balance']          = 'Balanço';
 $_['text_add_ban_ip']       = 'Add Ban IP';
-$_['text_remove_ban_ip']    = 'Remove Ban IP';
+$_['text_remove_ban_ip']    = 'Remover Ban IP';
 
 // Column
-$_['column_name']           = 'Customer Name';
+$_['column_name']           = 'Nome do Cliente';
 $_['column_email']          = 'E-Mail';
-$_['column_customer_group'] = 'Customer Group';
+$_['column_customer_group'] = 'Grupo de Clientes';
 $_['column_status']         = 'Status';
-$_['column_date_added']     = 'Date Added';
-$_['column_comment']        = 'Comment';
-$_['column_description']    = 'Description';
-$_['column_amount']         = 'Amount';
-$_['column_points']         = 'Points';
+$_['column_date_added']     = 'Data Adicionada';
+$_['column_comment']        = 'Comentário';
+$_['column_description']    = 'Descrição';
+$_['column_amount']         = 'Quantidade';
+$_['column_points']         = 'Pontos';
 $_['column_ip']             = 'IP';
-$_['column_total']          = 'Total Accounts';
-$_['column_action']         = 'Action';
+$_['column_total']          = 'Total de contas';
+$_['column_action']         = 'Ação';
 
 // Entry
-$_['entry_customer_group']  = 'Customer Group';
-$_['entry_firstname']       = 'First Name';
-$_['entry_lastname']        = 'Last Name';
+$_['entry_customer_group']  = 'Grupo de Clientes';
+$_['entry_firstname']       = 'Primeiro nome';
+$_['entry_lastname']        = 'Último nome';
 $_['entry_email']           = 'E-Mail';
-$_['entry_telephone']       = 'Telephone';
+$_['entry_telephone']       = 'Telefone';
 $_['entry_fax']             = 'Fax';
 $_['entry_newsletter']      = 'Newsletter';
 $_['entry_status']          = 'Status';
-$_['entry_approved']        = 'Approved';
-$_['entry_safe']            = 'Safe';
+$_['entry_approved']        = 'Aprovado';
+$_['entry_safe']            = 'Seguro';
 $_['entry_password']        = 'Password';
-$_['entry_confirm']         = 'Confirm';
-$_['entry_company']         = 'Company';
-$_['entry_address_1']       = 'Address 1';
-$_['entry_address_2']       = 'Address 2';
-$_['entry_city']            = 'City';
-$_['entry_postcode']        = 'Postcode';
-$_['entry_country']         = 'Country';
-$_['entry_zone']            = 'Region / State';
-$_['entry_default']         = 'Default Address';
-$_['entry_comment']         = 'Comment';
-$_['entry_description']     = 'Description';
-$_['entry_amount']          = 'Amount';
-$_['entry_points']          = 'Points';
-$_['entry_name']            = 'Customer Name';
+$_['entry_confirm']         = 'Confirmar';
+$_['entry_company']         = 'Empresa';
+$_['entry_address_1']       = 'Adrereço 1';
+$_['entry_address_2']       = 'Adrereço 2';
+$_['entry_city']            = 'Cidade';
+$_['entry_postcode']        = 'CEP';
+$_['entry_country']         = 'Pais';
+$_['entry_zone']            = 'Estado';
+$_['entry_default']         = 'Endereço Padrão';
+$_['entry_comment']         = 'Comentário';
+$_['entry_description']     = 'Descrição';
+$_['entry_amount']          = 'Quantidade';
+$_['entry_points']          = 'Pontos';
+$_['entry_name']            = 'Nome do Cliente';
 $_['entry_ip']              = 'IP';
-$_['entry_date_added']      = 'Date Added';
+$_['entry_date_added']      = 'Data Adicionada';
 
 // Help
-$_['help_safe']             = 'Set to true to avoid this customer from being caught by the anti-fraud system';
-$_['help_points']           = 'Use minus to remove points';
+$_['help_safe']             = 'Defina como true para evitar esse cliente de serem capturados pelo sistema anti-fraude';
+$_['help_points']           = 'Use minus para remover pontos';
 
 // Error
-$_['error_warning']         = 'Warning: Please check the form carefully for errors!';
-$_['error_permission']      = 'Warning: You do not have permission to modify customers!';
-$_['error_exists']          = 'Warning: E-Mail Address is already registered!';
-$_['error_firstname']       = 'First Name must be between 1 and 32 characters!';
-$_['error_lastname']        = 'Last Name must be between 1 and 32 characters!';
-$_['error_email']           = 'E-Mail Address does not appear to be valid!';
-$_['error_telephone']       = 'Telephone must be between 3 and 32 characters!';
-$_['error_password']        = 'Password must be between 4 and 20 characters!';
-$_['error_confirm']         = 'Password and password confirmation do not match!';
-$_['error_address_1']       = 'Address 1 must be between 3 and 128 characters!';
-$_['error_city']            = 'City must be between 2 and 128 characters!';
-$_['error_postcode']        = 'Postcode must be between 2 and 10 characters for this country!';
-$_['error_country']         = 'Please select a country!';
-$_['error_zone']            = 'Please select a region / state!';
-$_['error_custom_field']    = '%s required!';
+$_['error_warning']         = 'Atenção: Por favor, verifique o formulário com cuidado os erros!';
+$_['error_permission']      = 'Atenção: Você não tem permissão para modificar clientes!';
+$_['error_exists']          = 'Atenção: E-Mail já está registrado!';
+$_['error_firstname']       = 'Nome deve ter entre 1 and 32 caracteres!';
+$_['error_lastname']        = 'Último Nome deve ter entre 1 and 32 caracteres!';
+$_['error_email']           = 'Endereço de email inválido!';
+$_['error_telephone']       = 'Telefone deve ter entre 3 and 32 characters!';
+$_['error_password']        = 'Senha deve ter entre 4 and 20 characters!';
+$_['error_confirm']         = 'Senha e Senha de confirmação não combinam!';
+$_['error_address_1']       = 'Endereço 1 deve ter entre 3 e 128 caracteres!';
+$_['error_city']            = 'Cidade deve ter entre 2 and 128 caracteres!';
+$_['error_postcode']        = 'CEP deve ter entre 2 and 10 caracteres para esse pais!';
+$_['error_country']         = 'Por favor selecione um país!';
+$_['error_zone']            = 'Por favor selecione um estado!';
+$_['error_custom_field']    = '%s obrigatório!';
